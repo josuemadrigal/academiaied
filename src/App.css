@@ -1,0 +1,20 @@
+.container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  place-content: center;
+  place-items: center;
+
+  border-radius: 30px;
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  background: white;
+  border-radius: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
