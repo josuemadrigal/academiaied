@@ -21,9 +21,9 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ftp.ibmhm.org
+        server: ${{ secrets.FTP_SERVER }}
         username: ftpacademia@academiaied.com
-        password: ${{ secrets.FTP_PASWORD }}
+        password: AIED.2024
         local-dir: dist/
         exclude: |
           **/.git*
