@@ -23,7 +23,7 @@ jobs:
       with:
         server: ftp.ibmhm.org
         username: ftpacademia@academiaied.com
-        password: AIED.2024
+        password: ${{ secrets.FTP_PASWORD }}
         local-dir: dist/
         exclude: |
           **/.git*
