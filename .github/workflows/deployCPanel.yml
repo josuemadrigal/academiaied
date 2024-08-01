@@ -24,6 +24,7 @@ jobs:
         server: ftp.ibmhm.org
         username: ftpacademia@academiaied.com
         password: AIED.2024
+        local-dir: dist
         exclude: |
           **/.git*
           **/.git*/**
