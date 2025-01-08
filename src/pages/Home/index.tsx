@@ -1,9 +1,10 @@
-import Hero from "./components/Hero";
+// import Hero from "./components/Hero";
 import { motion } from "framer-motion";
-import CoursePreview from "../CoursePreview";
-import InstitutionInfo from "./components/InstitutionInfo";
-import PorQueEstudiarConNosotros from "./components/PorQueEstudiarConNosotros";
-import CTAcontacts from "../../components/CTAcontacts";
+// import CoursePreview from "../CoursePreview";
+// import InstitutionInfo from "./components/InstitutionInfo";
+// import PorQueEstudiarConNosotros from "./components/PorQueEstudiarConNosotros";
+// import CTAcontacts from "../../components/CTAcontacts";
+import Maintenance from "./components/maintenance";
 
 const Home = () => {
   return (
@@ -13,12 +14,12 @@ const Home = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <Hero />
-        <InstitutionInfo />
+        {/* <Hero /> */}
+        <Maintenance />
+        {/* <InstitutionInfo />
         <CoursePreview />
-        {/* <FormularioContacto /> */}
         <PorQueEstudiarConNosotros />
-        <CTAcontacts />
+        <CTAcontacts /> */}
       </motion.div>
     </div>
   );
